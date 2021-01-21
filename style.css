@@ -40,6 +40,20 @@ nav ul li {
 nav ul li a {
   color: white;
   font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
   text-transform: uppercase;
 }
 
+a.active,a:hover {
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+}
